@@ -86,12 +86,18 @@ p {
     background-color: #2589bd;
 }
 
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* consolidated the below code against the above
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+".benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -100,7 +106,14 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* consolidated the below code against the above
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,7 +128,15 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* consolidated the below code against the above
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,6 +154,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -188,6 +210,7 @@ p {
     font-size: 36px;
 }
 
+/* Removing the below CSS as it has been removed in HTML file as well.
 .footer {
     padding: 30px;
     clear: both;
@@ -198,3 +221,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+*/
